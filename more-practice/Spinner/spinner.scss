@@ -1,0 +1,10 @@
+.spinner-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  border: 10px solid transparent;
+  border-color: blue() transparent transparent tomato;
+  border-radius: 50%;
+  animation: thing 5s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
+}

@@ -1,0 +1,1 @@
+1. work on your own or specified branch (remember this), production is the master branch

@@ -1,0 +1,20 @@
+Packages contain package.json file (describes the package) and the JS file
+Supposed to do one thing really well
+Use different packages together
+Someone who wants to push a package that goes through the NPM registry
+Downside: Not all packages are good code, but your project can also get messy and bigger
+Yarn supposed to get packages from NPM registry
+NPM stands for Node Package Manager
+
+Three types of packages:
+Used on the browser (jquery)
+Give you new commands that's on the command line
+Those used for Node.js (backend)
+React is a package
+(LTS stands for Long Term Support)
+
+Three things to follow:
+
+1. HTML + CSS + JavaScript
+2. Github Repo + Git
+3. Package.json file

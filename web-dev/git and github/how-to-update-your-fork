@@ -1,0 +1,11 @@
+1. Go to forked project in your directory
+2. git remote -v (current configured remote repository for the fork)
+3. git remote add upstream [OG repository URL here]
+4. git remote -v (check to see the fork as origin and OG repo as upstream)
+5. git pull upstream master
+
+(https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
+(join linkedIn: https://zerotomastery.io/community/?utm_source=udemy&utm_medium=coursecontent)
+(Job board JIC: https://alumni-board.netlify.app/)
+(How to add your profile to the job board: https://github.com/zero-to-mastery/ZtM-Job-Board)
+(https://zero-to-mastery.github.io/resources/)

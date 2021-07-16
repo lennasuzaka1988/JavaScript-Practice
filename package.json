@@ -1,0 +1,23 @@
+{
+  "name": "javascript-practice-revised",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennasuzaka1988/JavaScript-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lennasuzaka1988/JavaScript-Practice/issues"
+  },
+  "homepage": "https://github.com/lennasuzaka1988/JavaScript-Practice#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "lodash": "^4.17.21"
+  }
+}

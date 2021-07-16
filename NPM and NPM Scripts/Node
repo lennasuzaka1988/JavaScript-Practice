@@ -1,0 +1,10 @@
+Node allows us to run JS without a browser (created with the V8 engine)
+To update Node on Windows:
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+npm install --global --production npm-windows-upgrade
+npm-windows-upgrade
+
+Just install the latest version:
+npm-windows-upgrade --npm-version latest
+
+npm init creates a new json package

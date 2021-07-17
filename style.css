@@ -1,0 +1,10 @@
+body {
+	background-color: darkgrey;
+}
+
+p {
+	font-size: 2vh;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	text-align: center;
+}

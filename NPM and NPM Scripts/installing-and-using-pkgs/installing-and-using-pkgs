@@ -2,3 +2,32 @@ live-server is a great local tester for all files
 lodash (so much easier)
 To import (legacy?) use browserify and create a bundle doing:
 browserify script.js > bundle.js
+then follow instructions represented in the script.js file
+
+semver - semantic versioning
+- Or the version number of the dependency
+
+In the case of version ^4.17.4, the rightmost number is Patch release for bug fixes. Minor is mid, new features.
+
+package.json is great because you don't have to insert the scripts for all the dependencies in HTML. Just use the bundle script.
+Just never upload the nodes to Github
+
+To download the dependencies from the package.json:
+npm install
+
+Another type of dependency:
+dev dependency = Packages that are only needed for developing and testing
+
+To initiate a particular package from JSON file:
+npm run test
+
+To make it easier to continuously update bundle via browserify:
+In the package.json
+
+"scripts": {
+    "build": "browser"
+}
+
+How to upgrade packages:
+npm update
+npm update -g (globally)

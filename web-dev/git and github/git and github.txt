@@ -1,1 +1,37 @@
 1. work on your own or specified branch (remember this), production is the master branch
+2. git branch (name)
+3. git checkout (name) to switch branches
+4. git add
+5. git status (if it's been added or not)
+6. git commit -m"[your comment here]"
+7. git push to push out changes to branch
+8. Then you want to pull request to push to the main branch (git-request-pull -p smallfeature master)
+9. To delete branch: git push origin --delete (remote branchName)
+10. git pull
+
+To pull and work on a new branch:
+git checkout -b [branch name]
+
+Merging
+1. git branch [branch name]
+2. git checkout [branch name]
+3. git add .
+4. git commit -m"comment"
+5. git push
+6. git add .
+7. git commit -m"add feature"
+8. git commit -m"add feature"
+9. git push
+10. git branch [conflict]
+11. git checkout [conflict]
+12. make changes and check git status
+13. git add .
+14. git commit -m "check"
+15. git checkout master
+16. git pull master (to update to latest)
+17. git checkout [conflict]
+18. git merge master (remove branch symbols if there are conflicts)
+19. git add .
+20. git commit -m"fixing merge issue"
+21. git status
+22. git push origin conflict [full tree and branch]

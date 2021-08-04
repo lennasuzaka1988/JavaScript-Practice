@@ -1,0 +1,3 @@
+Before react 16 there were cryptic errors that would cause the react app to break
+
+Now there are error boundaries

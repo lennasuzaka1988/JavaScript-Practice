@@ -1,0 +1,45 @@
+The additional code you'll find here is actually older code that's been copy and pasted over for reference.
+
+Tachyons: A package that allows that pre-defined class names
+
+You're creating functions that take values and attributes that are being rendered
+
+PROPS = properties (params) we passed down that is a pure function (one-way data flow), so no side effects
+These are known as PURE COMPONENTS
+They never change and they are never modified
+
+STATE = object that describes your app. In this case this is the robots and whatever is input in the searchbox. They're able to change, in this case what's input in the searchbox.
+PROPS come out of STATE
+So:
+
+STATE >> props
+Child can never change the property
+Parent just tell you what state is and child receives it as in this case robot
+
+After creating the constructor object for App, robots is now passed down as props so that CardList accepts robots but in App.js it's considered a state. App is allowed to own robots and change it
+Remember to use 'this' for objects! (Or constructors)
+
+How the overall structure works:
+App component
+Searchbox
+CardList
+
+Anytime searchbox changes on change, the function runs and it will call searchChange
+With DOM events every time the event happens the function would be called
+Any time onchange event is triggered the searchChange function is called
+Remember the searchChange function is a prop that is defined in the app which is the parent.
+So event is triggered, App (parent) notices and runs the function
+Then function gets run
+Since value of search input is retrieved the search input can be directly communicated with
+the "robots" list
+toLowerCase is best so that Capitalized and LowerCase doesn't get compared and cause issues
+
+#Errors
+TypeError: Cannot read property 'state' of undefined
+The above is very confusing but problem is value of this doesn't refer to the app, but event happened in input, the value is thus input
+Input doesn't have state.robots
+Anything like constructor and render is pre-built in React, so when yoou make your own methods on a component, you'll need to use:
+
+functionName = (event) => {
+    return console.log('blah')
+}

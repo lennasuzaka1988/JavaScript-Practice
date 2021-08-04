@@ -1,0 +1,13 @@
+In json package, you'll want to upgrade the project but only to minor release. Add karat (^) in front of
+version in json file if upgrading to minor or for major use greater than (>)
+
+Then run npm audit fix and force
+
+Could just also change the version (after looking at the current version on the package's website) so instead:
+"^16.0.1"
+to
+"^17.0.2"
+and run npm install again
+
+Then npm audit
+Then push the change to github

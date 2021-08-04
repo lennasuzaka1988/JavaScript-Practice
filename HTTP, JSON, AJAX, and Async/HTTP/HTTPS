@@ -1,0 +1,33 @@
+// Clients and servers communicate by exchanging individual messages.
+// Messages sent by client, usually web browser: requests
+// Messages sent by server: responses
+// HTTP is the language itself
+
+
+// Syntax:
+// GET
+// POST
+// PUT
+// DELETE
+
+
+// GET: Get HTML file
+// POST: Post something (data) to server or database
+// PUT: Send data and update already existing data
+// DELETE: Delete data on server/database
+
+
+// FETCH on demand objects called Ajax
+
+
+// Data added after html, begins with ?: query string
+// Query string parameters to help with GET
+
+
+// Send info to the body: POST
+// Add form data to server: POST
+// Get no query strings but instead form data
+// CHECK VIA NETWORK TAB
+
+
+// HTTPS disallows passwords from being seen when GET or POST. Communication is encrypted between client and server

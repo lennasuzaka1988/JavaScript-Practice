@@ -1,0 +1,6 @@
+How to install react app (THE OLD WAY)
+1. npm install create-react-app -g
+2. To create a new app, create-react-app <app_name>
+3. React Scripts does everything for us and uses the latest to build
+4. To customize use eject
+5. manifest.json is a new file that applies a shortcut with an icon of your app to your desktop
